@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toast.makeText(this, "Hullo", Toast.LENGTH_LONG).show();
         log_btn = (Button) findViewById(R.id.button_log);
         create_btn = (Button) findViewById(R.id.button_signup);
         view_btn = (Button) findViewById(R.id.button_view);
