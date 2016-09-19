@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button log_btn;
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         log_btn = (Button) findViewById(R.id.button_log);
         create_btn = (Button) findViewById(R.id.button_signup);
         view_btn = (Button) findViewById(R.id.button_view);
+        Toast.makeText(this, "HI", Toast.LENGTH_LONG).show();
         view_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
